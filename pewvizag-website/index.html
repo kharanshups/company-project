@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="PEW Vizag – Premier Ship Construction & Repair Company in Visakhapatnam, India." />
+  <title>PEW Vizag | Ship Construction & Repair</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header id="main-header">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <!-- Logo -->
+      <div class="nav-logo">
+        <a href="index.html" id="logo-link">
+          <img src="logo.png" alt="PEW Vizag Logo" id="site-logo" />
+        </a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <!-- Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link active" id="nav-home">Home</a></li>
+        <li><a href="about.html" class="nav-link" id="nav-about">About Us</a></li>
+        <li class="nav-dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="nav-services">Services ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="services.html#construction" id="nav-construction">Ship Construction</a></li>
+            <li><a href="services.html#repair" id="nav-repair">Ship Repair</a></li>
+            <li><a href="services.html#refit" id="nav-refit">Refit & Refurbishment</a></li>
+          </ul>
+        </li>
+        <li><a href="career.html" class="nav-link" id="nav-career">Career</a></li>
+        <li><a href="contact.html" class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO VIDEO SECTION ========== -->
+  <section class="hero-video-section" id="hero">
+    <div class="video-container" id="video-wrapper">
+      <video autoplay muted loop playsinline id="hero-video">
+        <!-- Replace the src below with your actual video path/URL -->
+        <source src="hero-video.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+      <!-- Dark gradient overlay -->
+      <div class="video-overlay"></div>
+    </div>
+
+    <!-- Hero text over video -->
+    <div class="hero-content" id="hero-content">
+      <p class="hero-tagline" id="hero-tagline">Excellence on Every Waterfront</p>
+      <h1 class="hero-title" id="hero-title">World-Class Ship<br/>Construction &amp; Repair</h1>
+      <p class="hero-sub" id="hero-sub">Proudly serving the maritime industry from Visakhapatnam, India</p>
+      <div class="hero-cta" id="hero-cta">
+        <a href="services.html" class="btn btn-primary" id="cta-services">Our Services</a>
+        <a href="contact.html" class="btn btn-outline" id="cta-contact">Get in Touch</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" id="scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT US SECTION ========== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+
+      <!-- Section Label -->
+      <div class="section-label" id="about-label">
+        <span class="label-line"></span>
+        <span class="label-text">Who We Are</span>
+        <span class="label-line"></span>
+      </div>
+
+      <h2 class="section-title" id="about-title">About PEW Vizag</h2>
+
+      <div class="about-grid" id="about-grid">
+        <!-- Left: main text -->
+        <div class="about-text" id="about-text-left">
+          <p class="about-lead">
+            PEW Vizag stands as one of India's foremost ship construction and repair enterprises, headquartered in the vibrant port city of Visakhapatnam — the maritime gateway of Eastern India.
+          </p>
+          <p>
+            With decades of unparalleled expertise, we have built a legacy defined by unwavering commitment to quality, safety, and engineering excellence. Our state-of-the-art shipyard facilities are equipped with cutting-edge technology and staffed by a highly skilled workforce dedicated to delivering superior maritime solutions.
+          </p>
+          <p>
+            From crafting purpose-built commercial vessels to executing complex repair and refurbishment projects, PEW Vizag operates with precision and passion. Our integrated approach, combining advanced design capabilities with robust production infrastructure, enables us to handle projects of any scale — from small fishing trawlers to large ocean-going cargo ships.
+          </p>
+          <p>
+            We adhere to the highest international standards, ensuring every vessel leaving our yard meets rigorous classification society requirements. Our quality management systems are certified and regularly audited, reflecting our relentless pursuit of excellence in every weld, every hull, and every sea trial.
+          </p>
+        </div>
+
+        <!-- Right: stats + highlights -->
+        <div class="about-highlights" id="about-highlights">
+          <div class="stat-card" id="stat-1">
+            <span class="stat-number">25+</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+          <div class="stat-card" id="stat-2">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Vessels Delivered</span>
+          </div>
+          <div class="stat-card" id="stat-3">
+            <span class="stat-number">1200+</span>
+            <span class="stat-label">Skilled Professionals</span>
+          </div>
+          <div class="stat-card" id="stat-4">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Global Clients</span>
+          </div>
+
+          <div class="highlight-list" id="highlight-list">
+            <div class="highlight-item">
+              <span class="hi-icon">⚓</span>
+              <span>ISO-certified shipyard operations</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">🛡️</span>
+              <span>Zero-compromise safety protocols</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">🌊</span>
+              <span>Deep-water dry dock facilities</span>
+            </div>
+            <div class="highlight-item">
+              <span class="hi-icon">🔧</span>
+              <span>24/7 repair &amp; emergency response</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vision & Mission -->
+      <div class="vm-grid" id="vm-grid">
+        <div class="vm-card" id="vm-vision">
+          <div class="vm-icon">🔭</div>
+          <h3>Our Vision</h3>
+          <p>To be the most trusted and innovative maritime engineering company in Asia, setting global benchmarks in ship construction quality and operational excellence.</p>
+        </div>
+        <div class="vm-card" id="vm-mission">
+          <div class="vm-icon">🎯</div>
+          <h3>Our Mission</h3>
+          <p>To deliver world-class vessels and repair services with precision, integrity, and a deep commitment to our clients' success — on time, every time.</p>
+        </div>
+        <div class="vm-card" id="vm-values">
+          <div class="vm-icon">💎</div>
+          <h3>Our Values</h3>
+          <p>Integrity, engineering excellence, teamwork, safety, and a relentless drive for continuous improvement guide every decision we make at PEW Vizag.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo-wrap">
+        <img src="logo.png" alt="PEW Vizag" class="footer-logo" id="footer-logo" />
+      </div>
+      <p class="footer-copy" id="footer-copy">&copy; 2024 PEW Vizag. All rights reserved.</p>
+      <div class="footer-links" id="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="career.html">Career</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

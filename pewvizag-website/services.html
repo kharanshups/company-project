@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | PEW Vizag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        .placeholder-page {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: var(--off-white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .placeholder-page h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            color: var(--navy);
+            margin-bottom: 20px;
+        }
+
+        .placeholder-page p {
+            font-size: 1.1rem;
+            color: var(--gray);
+            max-width: 500px;
+            line-height: 1.7;
+        }
+
+        .placeholder-page .back-btn {
+            margin-top: 32px;
+            padding: 12px 32px;
+            background: var(--navy);
+            color: #fff;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: .92rem;
+            letter-spacing: .05em;
+            transition: background .3s;
+            display: inline-block;
+        }
+
+        .placeholder-page .back-btn:hover {
+            background: var(--red);
+        }
+
+        .placeholder-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .coming-badge {
+            display: inline-block;
+            background: var(--red);
+            color: #fff;
+            font-size: .75rem;
+            font-weight: 700;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin-bottom: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header" class="scrolled">
+        <nav class="navbar">
+            <div class="nav-logo"><a href="index.html"><img src="logo.png" alt="PEW Vizag Logo" id="site-logo" /></a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="career.html" class="nav-link">Career</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="placeholder-page">
+        <div class="placeholder-icon">⚓</div>
+        <span class="coming-badge">Coming Soon</span>
+        <h1>Our Services</h1>
+        <p>Ship Construction, Ship Repair, Refit &amp; Refurbishment — detailed service pages are under development and
+            will be live soon.</p>
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <img src="logo.png" alt="PEW Vizag" class="footer-logo" />
+            <p class="footer-copy">&copy; 2024 PEW Vizag. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
