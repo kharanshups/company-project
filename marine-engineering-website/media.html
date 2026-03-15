@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Media center with latest news, blog articles, and photo gallery from Marine Engineering.">
+  <title>Media - Marine Engineering & Shipbuilding</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- ================================================================
+       NAVIGATION BAR
+       ================================================================ -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 8C20 8 10 20 10 25C10 28.3 14.5 31 20 31C25.5 31 30 28.3 30 25C30 20 20 8 20 8Z" fill="currentColor"/>
+        </svg>
+        <span>MarineEngineer</span>
+      </div>
+      <button class="navbar-toggle" aria-label="Toggle menu">
+        <span>☰</span>
+      </button>
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="divisions.html">Divisions</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li><a href="partners.html">Partners</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================================================================
+       PAGE HEADER
+       ================================================================ -->
+  <section class="hero" style="min-height: 400px;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(135deg, rgba(0, 31, 63, 0.8), rgba(0, 115, 230, 0.7)); z-index: 1;"></div>
+    <div class="hero-content">
+      <h1>News & Media Center</h1>
+      <p>Latest Updates, Blog Articles & Gallery</p>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       BREADCRUMB
+       ================================================================ -->
+  <section class="section" style="padding: 2rem 0;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span>Media</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       FEATURED NEWS
+       ================================================================ -->
+  <section class="section" id="featured-news">
+    <div class="container">
+      <div class="section-title">
+        <h2>Featured Stories</h2>
+      </div>
+      
+      <!-- Main Featured Article -->
+      <div class="card" style="margin-bottom: var(--spacing-3xl);">
+        <img src="images/featured-article.jpg" alt="Featured story" class="card-image" style="height: 400px; object-fit: cover;">
+        <div class="card-content">
+          <div style="display: flex; gap: var(--spacing-md); margin-bottom: var(--spacing-lg);">
+            <span class="badge">Featured</span>
+            <span class="badge badge-success">March 2024</span>
+          </div>
+          <h3 class="card-title">Revolutionary Green Shipbuilding Initiative Launched</h3>
+          <p class="card-text">
+            Marine Engineering & Shipbuilding proudly announces the launch of our comprehensive green shipbuilding initiative, 
+            marking a significant step towards sustainable maritime solutions. Our new eco-friendly vessel designs feature advanced 
+            propulsion systems, alternative fuels, and minimal environmental impact.
+          </p>
+          <p class="card-text">
+            This initiative represents our commitment to environmental responsibility while maintaining the highest standards of 
+            performance and reliability. We are investing in research and development to pioneer zero-emission technologies in the maritime industry.
+          </p>
+          <a href="#" class="btn btn-primary">Read Full Article</a>
+        </div>
+      </div>
+
+      <!-- Recent News Grid -->
+      <div class="section-title" style="margin-top: var(--spacing-3xl); margin-bottom: var(--spacing-2xl);">
+        <h3 style="text-align: center; margin-bottom: 0;">Recent News</h3>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <img src="images/news-1.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-success">February 2024</span>
+            <h3 class="card-title">New Shipyard Facility Opens</h3>
+            <p class="card-text">
+              We are excited to announce the grand opening of our state-of-the-art shipyard facility, 
+              expanding our production capacity by 40% and creating 200 new jobs in the region.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/news-2.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-warning">January 2024</span>
+            <h4 class="card-title">Industry Awards & Recognition</h4>
+            <p class="card-text">
+              Our company has been honored with multiple industry awards for innovation, quality excellence, 
+              and outstanding contributions to sustainable maritime practices.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/news-3.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-success">December 2023</span>
+            <h4 class="card-title">Advanced Research Lab Inaugurated</h4>
+            <p class="card-text">
+              Our new marine research and development laboratory features cutting-edge technology for 
+              testing advanced propulsion systems and sustainable materials.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/news-4.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-success">November 2023</span>
+            <h4 class="card-title">Major Contract Secured</h4>
+            <p class="card-text">
+              We have secured a major international contract for the design and construction of 5 advanced 
+              container vessels valued at $500 million.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/news-5.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-success">October 2023</span>
+            <h4 class="card-title">Technology Partnership Announced</h4>
+            <p class="card-text">
+              We have partnered with leading global technology firms to integrate AI and IoT solutions 
+              into our shipbuilding processes for enhanced efficiency.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/news-6.jpg" alt="News article" class="card-image">
+          <div class="card-content">
+            <span class="badge badge-success">September 2023</span>
+            <h4 class="card-title">Employment Campaign Success</h4>
+            <p class="card-text">
+              Our career development program has trained and employed 150 skilled professionals, 
+              contributing to the growth of the marine engineering workforce.
+            </p>
+            <div class="card-footer">
+              <a href="#" class="text-primary">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       PHOTO GALLERY
+       ================================================================ -->
+  <section class="section section-light" id="photo-gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Photo Gallery</h2>
+      </div>
+      
+      <!-- Gallery Grid -->
+      <div class="gallery">
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-1.jpg" data-src="images/gallery-1.jpg">
+            <img src="images/gallery-1.jpg" alt="Shipyard construction" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-2.jpg" data-src="images/gallery-2.jpg">
+            <img src="images/gallery-2.jpg" alt="Vessel launch event" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-3.jpg" data-src="images/gallery-3.jpg">
+            <img src="images/gallery-3.jpg" alt="Maritime facility" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-4.jpg" data-src="images/gallery-4.jpg">
+            <img src="images/gallery-4.jpg" alt="Ship interior" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-5.jpg" data-src="images/gallery-5.jpg">
+            <img src="images/gallery-5.jpg" alt="Engineering workshop" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-6.jpg" data-src="images/gallery-6.jpg">
+            <img src="images/gallery-6.jpg" alt="Metal fabrication" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-7.jpg" data-src="images/gallery-7.jpg">
+            <img src="images/gallery-7.jpg" alt="Team working" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-8.jpg" data-src="images/gallery-8.jpg">
+            <img src="images/gallery-8.jpg" alt="Ship at sea" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-9.jpg" data-src="images/gallery-9.jpg">
+            <img src="images/gallery-9.jpg" alt="Dry dock operations" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-10.jpg" data-src="images/gallery-10.jpg">
+            <img src="images/gallery-10.jpg" alt="Advanced machinery" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-11.jpg" data-src="images/gallery-11.jpg">
+            <img src="images/gallery-11.jpg" alt="Office facilities" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="gallery-item" data-lightbox="main-gallery">
+          <a href="images/gallery-12.jpg" data-src="images/gallery-12.jpg">
+            <img src="images/gallery-12.jpg" alt="Conference facility" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-icon">🔍</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       VIDEO GALLERY
+       ================================================================ -->
+  <section class="section" id="video-gallery">
+    <div class="container">
+      <div class="section-title">
+        <h2>Video Gallery</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card">
+          <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Company Overview Video" 
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">Company Overview</h4>
+            <p class="card-text">A comprehensive overview of Marine Engineering facilities and capabilities</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Shipbuilding Process"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">Shipbuilding Process</h4>
+            <p class="card-text">Behind-the-scenes look at our advanced shipbuilding operations</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="position: relative; width: 100%; padding-bottom: 56.25%; background: #000;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vessel Launch Ceremony"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+          </div>
+          <div class="card-content">
+            <h4 class="card-title">Vessel Launch Ceremony</h4>
+            <p class="card-text">Highlights from our latest vessel launch event in Mumbai</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       NEWSLETTER SUBSCRIPTION
+       ================================================================ -->
+  <section class="section section-dark">
+    <div class="container" style="max-width: 600px;">
+      <div class="text-center" style="margin-bottom: var(--spacing-2xl);">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter for the latest news and updates</p>
+      </div>
+      <form class="flex" style="gap: 0;">
+        <input type="email" placeholder="Enter your email" class="form-input" style="flex: 1; margin-bottom: 0; border-radius: var(--radius-md) 0 0 var(--radius-md);" required>
+        <button type="submit" class="btn btn-primary" style="margin-bottom: 0; border-radius: 0 var(--radius-md) var(--radius-md) 0; width: auto;">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       LIGHTBOX
+       ================================================================ -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close">✕</button>
+      <img id="lightboxImage" src="" alt="Gallery image" class="lightbox-image">
+      <button class="lightbox-nav lightbox-prev" aria-label="Previous">‹</button>
+      <button class="lightbox-nav lightbox-next" aria-label="Next">›</button>
+    </div>
+  </div>
+
+  <!-- ================================================================
+       FOOTER
+       ================================================================ -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Marine Engineering</h4>
+        <p>Leading provider of innovative marine engineering and shipbuilding solutions for over 20 years.</p>
+        <div class="social-links">
+          <a href="#" title="LinkedIn">in</a>
+          <a href="#" title="Facebook">f</a>
+          <a href="#" title="Twitter">𝕏</a>
+          <a href="#" title="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="divisions.html">Divisions</a>
+        <a href="media.html">Media</a>
+        <a href="partners.html">Partners</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <a href="#">Ship Design</a>
+        <a href="#">Vessel Construction</a>
+        <a href="#">Ship Repair</a>
+        <a href="#">Modernization</a>
+        <a href="#">Offshore Solutions</a>
+        <a href="#">Consulting</a>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p><strong>Email:</strong><br>
+        <a href="mailto:info@marineengineering.com">info@marineengineering.com</a></p>
+        <p><strong>Phone:</strong><br>
+        <a href="tel:+911234567890">+91 123 456 7890</a></p>
+        <p><strong>Headquarters:</strong><br>
+        Mumbai, India</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Marine Engineering & Shipbuilding. All rights reserved. | 
+        <a href="#" style="color: var(--neutral-light-grey);">Privacy Policy</a> | 
+        <a href="#" style="color: var(--neutral-light-grey);">Terms of Service</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
